@@ -1,0 +1,121 @@
+{% extends 'base.html' %}
+{% load static %}
+
+<head>
+    <title>우우리조오오오</title>
+    {% block css %}
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="{% static 'recommand/style.css' %}">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    {% endblock css %}
+</head>
+<!-- 웹구축 둘, 데이터 모델링 셋  -->
+<body>
+{% block content %}
+<div id="container" style="opacity: 1; top: 0px;">
+    <section class='mem_1'>
+        <div class='row alt'>
+            <div class="col-6 text-middle">
+                
+                <h2>정윤성(Leader)</h2>
+                <p >역할: 데이터 모델링</p>
+                <p> 
+                    술에 중독돰</br>
+                    술에 관련된 프로젝트 제시</br>
+                    직접 데이터 모델링 구현</br>
+                </p>
+                <p>
+                    느낀점: 리더는 어깨가 무겁다
+                </p>
+                
+            </div>
+            <div class='col-6 align-c'  style="visibility: visible; right: 0%; opacity: 1;">
+                <img class='major preload' src='https://cdn.shopify.com/s/files/1/2141/9909/products/Kozel_Bottle_500mL_1024x1024.png?v=1564460077'>
+            </div>
+        </div>
+    </section>
+    <section class='mem_1'>
+            <div class='row alt'>
+                <div class="col-6 text-middle">
+
+                    <h2>류중경</h2>
+                    <p >역할: 데이터 마이닝</p>
+                    <p> 
+                        데이터 크롤링 담당</br>
+                        데이터 전처리</br>
+                        영어 -> 한글 번역 사전 구축
+                    </p>
+                    <p>
+                        느낀점: 미안하다 사랑한다
+                    </p> 
+            
+                </div>
+                <div class='col-6 align-c'  style="visibility: visible; right: 0%; opacity: 1;">
+                    <img class='major preload' src='https://img.bondlayer.com/nh1z4bytud/_assets/nbkxczhponbnb1eaw26ohb.png?fit=fill&h=600'>
+                </div>
+            </div>
+        </section>
+        <section class='mem_1'>
+                <div class='row alt'>
+                    <div class="col-6 text-middle">
+                        <h2>강정호</h2>
+                        <p >역할: 데이터 모델링 및 발표자료 제작</p>
+                        <p> 프로젝트 프로세스 관리</br>
+                            맥주사진 크롤링<br/>
+                            발표PPT 제작
+                        </p>
+                        <p>
+                            느낀점: 레전도 레게노
+                        </p>    
+                    </div>
+                    <div class='col-6 align-c'  style="visibility: visible; right: 0%; opacity: 1;">
+                        <img class='major preload' src='https://cdn.shopify.com/s/files/1/2597/8324/products/179100012-1-heineken-lager-beer-alc-5-web.png?v=1524654024'>
+                    </div>
+                </div>
+            </section>
+            <section class='mem_1'>
+                    <div class='row alt'>
+                        <div class="col-6 text-middle">
+
+                            <h2>이동재</h2>
+                            <p>역할: 웹</p>
+                            <p>
+                                시스템 통합<br/>
+                                맥주 추천 화면 제작</br>
+                                사실상 CTO
+                            </p>
+                            <p>
+                                느낀점: 아.. 취업하고 싶다..
+                            </p>  
+            
+                            
+                        </div>
+                        <div class='col-6 align-c'  style="visibility: visible; right: 0%; opacity: 1;">
+                            <img class='major preload' src='https://i2.wp.com/www.boozecrewleeds.co.uk/wp-content/uploads/2017/10/desperados_large.png?fit=1200%2C1200&ssl=1'>
+                        </div>
+                    </div>
+                </section>
+                <section class='mem_1'>
+                        <div class='row alt'>
+                            <div class="col-6 text-middle">
+                                <h2>심현인</h2>
+                                <p >역할: 웹</p>
+                                <p> 
+                                    팀원 소개 페이지 제작</br>
+                                    AWS로 DB 및 서버 구축</br>
+                                    웹퍼블리싱
+                                </p>
+                                <p>
+                                    느낀점: 난 이제 풀스택이다.
+                                </p>    
+                            </div>
+                            <div class='col-6 align-c'  style="visibility: visible; right: 0%; opacity: 1;">
+                                <img class='major preload' src='https://cdn.shopify.com/s/files/1/2597/8324/products/301214267-1-suntory-the-premium-malts-pilsner-beer-alc-5-5-web.png?v=1524653836'>
+                            </div>
+                        </div>
+                    </section>
+{% endblock content %}
+</body>
+

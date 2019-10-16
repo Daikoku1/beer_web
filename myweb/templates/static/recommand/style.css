@@ -1,0 +1,178 @@
+html,
+body,
+body div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: bottom;
+  background: transparent;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+section.mem_1{
+    padding: 6em 5%;
+}
+
+section.mem_1 {
+    -webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+section.mem_1, section.noise {
+    background: #fafafa;
+    border-bottom: #dddddd solid 1px;
+}
+
+article, aside, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+
+#container {
+    position: relative;
+}
+
+.row {
+    clear: both;
+    max-width: 1040px;
+    margin: 0 auto;
+    height: 360px;
+}
+
+.row.alt [class^="col-"] {
+    float: right;
+    margin: 0 0 0 3.84615385%;
+   
+}
+
+.text-middle {
+    padding-top: 2em;
+}
+
+.col-6 {
+    width: 48.07692308%;
+}
+
+[class^="col-"] {
+    float: left;
+    margin: 0 3.84615385% 0 0;
+    list-style: none;
+    position: relative;
+}
+
+div {
+    display: block;
+}
+
+.align-c {
+    text-align: center !important;
+}
+
+[class^="col-"]:last-child, .row.alt [class^="col-"]:last-child {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    position: relative;
+    margin-bottom: 2em;
+    height: 300px;
+}
+
+img.major {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2, .h2 {
+    margin-bottom: 0.5em;
+    font-size: 28px;
+    font-size: 2.8rem;
+    line-height: 1.2em;
+}
+
+p {
+    margin-bottom: 1.4em;
+    line-height: 1.4em;
+    /* -webkit-font-smoothing: antialiased; */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    background-color: transparent;
+    font-size: 18px;
+    font-size: 1.8rem;
+    color: #111111;
+    text-rendering: optimizeLegibility;
+    display: block;
+}

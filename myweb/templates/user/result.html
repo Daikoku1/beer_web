@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+<head>
+        {% block css %}
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    {% endblock css %}
+
+    {% block headline %}
+            결과 보여주는곳.<br/>
+            결과를 보여주는 곳.<br/>
+            <a href="{% url 'home' %}" class="btn btn-primary btn-space" type="button">Back</a>
+    {% endblock headline %}
+</head>
+<body>
+    {% block content %}
+
+        <table>
+            {% for beer, number in result %}
+            <tr>
+                <td>{{ beer }}</td>
+                <td><img src="{% static '/recommand/image/'|add:number|add:'.png' %}"></td>
+            </tr>
+            {% endfor %}
+        </table>
+    {% endblock content %}
+</body>
