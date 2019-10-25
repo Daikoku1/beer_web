@@ -4,6 +4,7 @@
     <list default="true" id="9a99afe2-7e60-4a7a-8d37-9f11b0833fe7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myweb/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myweb/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myweb/templates/user/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/myweb/templates/user/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
