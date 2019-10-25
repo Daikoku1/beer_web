@@ -84,7 +84,7 @@ DATABASES = {
         'HOST': '127.0.0.1',
         'NAME': 'beer_queryset',
         'USER': 'root',
-        'PASSWORD': 'thirdworld3',
+        'PASSWORD': '',
     },
 }
 
